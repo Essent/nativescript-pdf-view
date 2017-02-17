@@ -25,16 +25,22 @@
     "nativescript-theme-core": "^0.2.1",
     "reflect-metadata": "~0.1.8",
     "rxjs": "5.0.0-beta.12",
-    "tns-core-modules": "2.4.0"
+    "tns-core-modules": "2.5.0"
   },
   "devDependencies": {
-    "babel-traverse": "6.19.0",
-    "babel-types": "6.19.0",
-    "babylon": "6.14.1",
+    "babel-traverse": "6.22.1",
+    "babel-types": "6.22.0",
+    "babylon": "6.15.0",
     "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*",
     "nativescript-dev-typescript": "^0.3.2",
-    "typescript": "^2.0.10",
+    "typescript": "^2.1.6",
     "zone.js": "~0.6.21"
+  },
+  "scripts": {
+    "reinstall:ios": "tns platform remove ios && tns platform add ios && tns plugin add ..",
+    "reinstall:android": "tns platform remove android && tns platform add android && tns plugin add ..",
+    "android": "tns run android",
+    "ios": "tns run ios"
   }
 }

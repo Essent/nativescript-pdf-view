@@ -1,5 +1,4 @@
 import { Property } from 'ui/core/dependency-observable';
-import dependencyObservable = require("ui/core/dependency-observable");
 import * as proxy from 'ui/core/proxy';
 import * as view from 'ui/core/view';
 

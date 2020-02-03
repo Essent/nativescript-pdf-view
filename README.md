@@ -35,7 +35,9 @@ If you're using the plugin with Angular 2, the plugin automatically registers
 To try the demo run the following commands:
 
 ```sh
-npm run setup
+cd src
+npm run clean
+npm run plugin.prepare
 npm run demo.ios
 npm run demo.android
 ```

@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
+  xmlns:pdf="nativescript-pdf-viewer">
+  <FlexboxLayout flexDirection="column">
+    <pdf:PDFViewer flexGrow="1" src="{{ pdfUrl }}" />
+  </FlexboxLayout>
+</Page>
